@@ -149,3 +149,12 @@ button:hover {
     margin-top: 35px;
     gap: 10px;
 }
+
+.lan-btn {
+    transition: color 0.25s ease-in-out;
+}
+
+.lan-btn:hover {
+    color: gray;
+    transition: 0.25s ease-in-out;
+}
