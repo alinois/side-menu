@@ -24,13 +24,55 @@ button {
     border: none;
     background-color: white;
     font-family: TT Lakes Regular;
+    font-size: 16px;
     margin: 0px 0px;
     padding: 0px 0px;
 }
 
 button:hover {
     cursor: pointer;
-    color: lightgray;
+}
+
+.menu-btn {
+    transition: color 0.25s ease-in-out;
+    transition: padding 0.25s ease-in-out;
+}
+
+.icon-nav {
+    transition: opacity 0.25s ease-in-out; 
+}
+
+.icon-nav:hover {
+    opacity: 70%;
+    transition: 0.25s ease-in-out;
+}
+
+.menu-btn:hover {
+    padding-left: 10px;
+    color: gray;
+    transition: 0.25s ease-in-out;
+}
+
+.btn-txt {
+    transition: color 0.25s ease-in-out;
+    transition: padding 0.25s ease-in-out;
+}
+
+.btn-txt:hover {
+    padding-left: 10px;
+    color: gray;
+    transition: 0.25s ease-in-out;
+}
+
+
+.active-btn {
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+}
+
+.btn-txt {
+    margin-left: 19px;
 }
 
 .side-menu {
@@ -72,7 +114,7 @@ button:hover {
     justify-content: start;
     align-items: start;
     padding-left: 25px;
-    gap: 25px;
+    gap: 35px;
 }
 
 .menu-footer {
@@ -83,6 +125,7 @@ button:hover {
     justify-content: start;
     align-items: start;
     padding-left: 25px;
+    padding-top: 60%;
 }
 
 .icons-commun {
